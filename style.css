@@ -1,5 +1,4 @@
 body {
-    width: 100%;
     margin: 0px;
     padding: 0px;
     background-color: grey;
@@ -7,6 +6,8 @@ body {
 }
 
 #top_nav {
+    margin: 0px;
+    padding: 0px;
     background-color: black;
     color: white;
     height: 50px;
@@ -22,7 +23,7 @@ body {
 ol > li {
     display: inline-block;
     list-style-type: none;
-    margin: 0px 18px;
+    margin: 0px 16px;
     padding: 12px;
     font-size: 16px;
 }
@@ -33,9 +34,26 @@ ol > li > a {
     cursor: pointer;
 }
 
+ol > li > a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 2s;
+}
+
 #intro {
-    height: 400px;
-    background-color: #116466;
+    height: 660px;
+    background-image: url(img/img.jpg);
+    background-size: 100%;
+    background-position-y: -140px;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 180px;
 }
+
+#portfolio {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+/*background-color: #116466;*/
